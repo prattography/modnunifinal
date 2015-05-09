@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+</head>
+<body>
+<h1>
+    Enter ecplise section:
+<p>
+<form method = GET action=/koi-model>
+koi: <input type=text name=key>
+start: <input type=text name=start>
+end: <input type=text name=end>
+tau0: <input type=number step=0.01 name=taunot>
+<input type = submit>
+</form>
+<p>
+
+<p>
+<table>
+    <tr>
+	<td><h2>Lightcurve:</h2></td>
+	<td><img src="{{url_for('static', filename="koiplot.png")}}"></td>
+    </tr> 
+
+           <script>
+        function myFunction() {
+                location.reload(true);
+        }
+        </script>
+
+</table>
+</body>
+</html>
+
