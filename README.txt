@@ -29,7 +29,7 @@ and the app itself can be run by:
 
 $ python koiapp.py
 
-Then, on a browser (prefereably Firefox, since the app hasn't been tested on
+Then, on a browser (preferably Firefox, since the app hasn't been tested on
 others), with "localhost:5000" in the url box, the app will show. Cache
 needs to be disabled in the browser, or else new plots will not display when
 new KOI numbers are entered. The .html files are stored in the "templates"
@@ -50,7 +50,7 @@ result. Once that is submitted, the app displays a model (in red and '-' for lin
 What it cannot do: 
 There have been no error checks done, so the app assumes that the user will
 input the correct parameters at all times. Else, the app doesn't exactly
-crash, but will display error messages (albiet in an unelegant manner). The
+crash, but will display error messages (albeit in an ungraceful manner). The
 app also unfortunately, at this stage, only runs on the localhost. Ideally,
 it would be on a server with its own domain name but that's looking into the
 future to deploy the app. 
@@ -73,7 +73,7 @@ The reason the KOI Web App might be useful despite the convenient use of the
 original Kepler site is so that numerical methods can be used to analyze the
 information provided. It might be especially useful if there were to be
 a study done on certain types of planets (such as ones that have specific
-behaviors in ecplises, or systems with overall increase or decrease in
+behaviors in eclipses, or systems with overall increase or decrease in
 luminosity). 
 
 I would like to develop this app much further than what it can
@@ -82,7 +82,7 @@ other numerical methods as well. I'd like for it to first and foremost, do
 error-checking. Then, provide a better user interface to make the app seem
 more complete before adding additional features (which might end up becoming
 more difficult to adjust to the design later). Then, I'd like to take
-advantage of the kplr API to accquire fits files and do some sort of image
+advantage of the kplr API to acquire fits files and do some sort of image
 analysis. 
 
 This is my first time doing anything like front-end development for making
