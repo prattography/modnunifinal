@@ -45,7 +45,10 @@ number (probably the one that they're currently looking at the light curve
 for) and the start and end times for the ecplises. The user should also put
 in the t_0 of where the lowest luminosity is. The submit box has a step
 feature so that the user could adjust the step and have a more accurate
-result. Once that is submitted, the app displays a model (in red and '-' for linestyle). 
+result. (If the user enters only a KOI number in the "Enter eclipse section:" page,
+the whole lightcurve for that system will display.) Once that is submitted, the 
+app displays a model (in red and '-' for linestyle). 
+
 
 What it cannot do: 
 There have been no error checks done, so the app assumes that the user will
