@@ -34,7 +34,8 @@ others), with "localhost:5000" in the url box, the app will show. Cache
 needs to be disabled in the browser, or else new plots will not display when
 new KOI numbers are entered. The .html files are stored in the "templates"
 directory and the plots generated from the app are stored in the "static"
-folder.
+folder (the "static" directory has a sample.txt which is just a reminder
+that the images will go in that directory and that it needs to be there).
 
 What it can do: 
 It can work on the localhost, and on port 5000 by default. It asks for a KOI

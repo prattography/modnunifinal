@@ -1,0 +1,1 @@
+Need to have the "static" directory for the images to be directed here and then used to display to the browser.
