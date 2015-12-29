@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-<meta http-equiv="Pragma" content="no-cache" />
-<meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"/>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
 </head>
 <body>
 <h1>
@@ -13,7 +14,7 @@
 koi: <input type=text name=key>
 start: <input type=text name=start>
 end: <input type=text name=end>
-tau0: <input type=number step=0.01 name=taunot>
+tau<sub>O</sub>: <input type=number step=0.01 name=taunot>
 <input type = submit>
 </form>
 <p>

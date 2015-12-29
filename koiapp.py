@@ -35,7 +35,7 @@ def getLC(koinum, koistr):
         plotName = "KOI %s Light Curve" %koistr
 	plt.title(plotName, fontsize=20)
         imgname = "koiplot.png" 
-	path = "/home/prattography/Documents/moduni/final/static"
+	path = "/home/prat/Documents/modnunifinal/static"
 	fullpath = os.path.join(path, imgname)
 	plt.savefig(fullpath)
 
@@ -130,7 +130,7 @@ def getModel(koinum, koistr, start, end, int0):
         plotName = "KOI %s Light Curve" %koistr
 	plt.title(plotName, fontsize=20)
         imgname = "koiplotmodel.png" 
-	path = "/home/prattography/Documents/moduni/final/static"
+	path = "/home/prat/Documents/modnunifinal/static"
 	fullpath = os.path.join(path, imgname)
 	plt.savefig(fullpath)
          
